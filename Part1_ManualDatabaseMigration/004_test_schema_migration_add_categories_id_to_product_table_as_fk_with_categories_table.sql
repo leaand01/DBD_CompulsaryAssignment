@@ -153,5 +153,17 @@ drop table if exists Products;
 drop table if exists Categories;
 go
 
--- Remark, potential improvements:
+
+-- REMARKS, potential improvements:
 -- add shcema migration to Categories and add category_name such as electronics etc.
+-- Attempted to call the scrips creating the products and categories table to avoid copy paste error but could not get it to work
+-- could refactor and make this copied from above into an user defined function as it is reused in this code
+/*
+select @ProductsColumnsCount = count(*) from INFORMATION_SCHEMA.COLUMNS
+where TABLE_NAME = 'Products';
+
+if @ProductsColumnsCount = 4
+	print 'Successfull: Correct number of columns in table Products';
+else
+	print 'Error: incorrect number of columns in table Products';
+*/
