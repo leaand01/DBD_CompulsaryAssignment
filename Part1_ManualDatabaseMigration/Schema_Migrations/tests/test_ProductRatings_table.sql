@@ -96,7 +96,6 @@ else
 	print 'Error in insertion of data';
 
 
--- NÅET HERTIL
 -- test foreign key constraint in ProductRatings:
 -- insertion must fail as trying to create a non-existing Product_Id
 begin try
