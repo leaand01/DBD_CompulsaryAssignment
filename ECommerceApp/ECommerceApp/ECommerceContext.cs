@@ -7,7 +7,9 @@ namespace ECommerceApp
         // Instructs EF Core to map class Product to a table called Products, i.e. table Products is created
         public DbSet<Product> Products { get; set; } 
 
-        //public DbSet<Category> Categories { get; set; } // Tabel for kategorier
+        public DbSet<Category> Categories { get; set; } // Create table Categories
+        
+        
         //public DbSet<ProductRating> ProductRatings { get; set; } // Tabel for ratings
 
         // Configure a SQLite db called ecommerce.db in root folder og project.
