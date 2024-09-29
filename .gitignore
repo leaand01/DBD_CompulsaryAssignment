@@ -2,3 +2,39 @@
 *.db
 *.db-shm
 *.db-wal
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.jfm.lock
+*.jfm.locks
+
+# Visual Studio temporary files
+*.vsix
+*.vstemplate
+*.sln.ide
+*.ncb
+*.aps
+*.pch
+*.idb
+*.ilk
+
+# Visual Studio Code files
+.vscode/
