@@ -1,6 +1,4 @@
-﻿//using System;
-using System.ComponentModel.DataAnnotations; // for datavalidation en primary key
-//using System.ComponentModel.DataAnnotations.Schema; // for database related attributes
+﻿using System.ComponentModel.DataAnnotations; // for datavalidation en primary key
 
 namespace ECommerceApp
 {
