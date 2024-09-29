@@ -8,9 +8,10 @@ namespace ECommerceApp
         public DbSet<Product> Products { get; set; } 
 
         public DbSet<Category> Categories { get; set; } // Create table Categories
+
         
-        
-        //public DbSet<ProductRating> ProductRatings { get; set; } // Tabel for ratings
+        public DbSet<ProductRating> ProductRatings { get; set; } // Create table ProductRatings
+
 
         // Configure a SQLite db called ecommerce.db in root folder og project.
         // Create db if do not exist
