@@ -3,8 +3,9 @@
 *.db-shm
 *.db-wal
 
-# Visual Studio files
+# Visual Studio user specific files
 .vs/
+ECommerceApp/obj/
 *.suo
 *.user
 *.userosscache
