@@ -1,5 +1,4 @@
-﻿//using System;
-using System.ComponentModel.DataAnnotations; // for datavalidation en primary key
+﻿using System.ComponentModel.DataAnnotations; // for datavalidation en primary key
 using System.ComponentModel.DataAnnotations.Schema; // for database related attributes (e.g. setup of ForeignKey)
 
 namespace ECommerceApp
