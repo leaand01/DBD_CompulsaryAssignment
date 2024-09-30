@@ -1,4 +1,25 @@
-manual/rollback-plan
+**Setting up the project**
+
+Open SQL Server Management Studio (ssms). 
+
+To setup the entire schema run file "000_All_schema_migrations.sql" in ssms. Note, you need to run the file in SQLCMD Mode - at the top of the file are instructions on how to do this.
+
+If you do not want to setup the entire schema at once just outcomment the lines (corresponding to migrations) in above files that you do not wish to run.
+
+
+**The Migrations**
+
+The migrations are seperated into smaller parts and enumerated in order of creation:
+
+- 001_create_local_db_e-commerce.sql
+- 002_create_table_products.sql
+- 003_create_table_categories.sql
+- 004_migration_add_categoryid_column_to_products_table_as_fk.sql
+- 005_migration_add_null_constraint_to_categoryid_column_in_products_table_as_is_a_fk.sql
+- 006_create_table_productRatings.sql
+
+Above are the migrations that are all collected in file "000_All_schema_migrations.sql".
+
 
 **Rollback plan**
 
